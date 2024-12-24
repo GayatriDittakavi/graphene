@@ -2,6 +2,7 @@ import React from 'react';
 import { FloatingNavDemo } from "../components/Navbar";
 import Hero from './Hero';
 import { SpotlightPreview } from '@/components/Spotlight';
+import Technology from '@/components/Technology';
 // import { CanvasRevealEffectDemo } from '@/components/AboutUs';
 
 function Page() {
@@ -10,7 +11,8 @@ function Page() {
       <FloatingNavDemo />
       <Hero />
       <SpotlightPreview />
-      <div className="bg-black h-screen"></div>
+      <Technology />
+      {/* <div className="bg-black h-screen"></div> */}
       
       {/* <CanvasRevealEffectDemo /> */}
     </div>
