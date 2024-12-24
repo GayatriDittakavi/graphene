@@ -8,6 +8,21 @@ export default {
   ],
   theme: {
   	extend: {
+		animation: {
+			spotlight: "spotlight 2s ease .75s 1 forwards",
+		  },
+		  keyframes: {
+			spotlight: {
+			  "0%": {
+				opacity: 0,
+				transform: "translate(-50%, -50%) scale(0.5)",
+			  },
+			  "100%": {
+				opacity: 1,
+				transform: "translate(-10%,-10%) scale(2) rotate(-30deg)",
+			  },
+			},
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
