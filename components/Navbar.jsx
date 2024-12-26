@@ -11,17 +11,17 @@ export function FloatingNavDemo() {
     },
     {
       name: "About Us",
-      link: "/about",
+      link: "#about",
       icon: <IconUser className="h-5 w-5 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Services",
-      link: "/services",
+      link: "#services",
       icon: <IconPackage className="h-5 w-5 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Technology",
-      link: "/technology",
+      link: "#technology",
       icon: <IconCode className="h-5 w-5 text-neutral-500 dark:text-white" />,
     },
     // {

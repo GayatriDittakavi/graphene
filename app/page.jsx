@@ -3,6 +3,7 @@ import { FloatingNavDemo } from "../components/Navbar";
 import Hero from './Hero';
 import { SpotlightPreview } from '@/components/Spotlight';
 import Technology from '@/components/Technology';
+import { AddressMap } from '@/components/Map';
 // import { CanvasRevealEffectDemo } from '@/components/AboutUs';
 
 function Page() {
@@ -12,6 +13,7 @@ function Page() {
       <Hero />
       <SpotlightPreview />
       <Technology />
+      {/* <AddressMap /> */}
       {/* <div className="bg-black h-screen"></div> */}
       
       {/* <CanvasRevealEffectDemo /> */}
