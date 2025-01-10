@@ -88,7 +88,7 @@ const Footer = () => {
                         <p>© 2024 Graphene Labs. All rights reserved.</p>
                         <ul className="flex gap-4">
                             <li className="text-white hover:text-zinc-400 underline ">
-                                <a href="#"> Email Us</a>
+                                <a href="mailto:outreach@graphenelabs.in"> Email Us</a>
                             </li>
                             <li className="underline hover:text-primary">
                                 <a href="#">Newsletter Subscription</a>
