@@ -26,8 +26,8 @@ const people = [
     },
     {
       id: 4,
-      name: "Emily Davis",
-      designation: "UX Designer",
+      name: "Tirupathi Seth",
+      designation: "Co Founder",
       image:
         "https://res.cloudinary.com/dafbhjsmx/image/upload/v1736509774/render_1-removebg-preview_bdw2ko.png",
     },
@@ -40,7 +40,7 @@ const Footer = () => {
                 <footer className="w-screen">
                     <div className="grid grid-cols-3  gap-8 content-end w-screen">
                         <div className="col-span-2 mb-8 ml-4 lg:mb-0 ">
-                            <span className="mb-80 h-7 text-2xl font-bold">Our Team</span>
+                            <span className="mb-80 h-7 text-2xl font-bold font-poppins">Our Team</span>
                             <div className="flex mt-4 gap-6">
 
                                 <div className="flex flex-row items-center justify-center ">
