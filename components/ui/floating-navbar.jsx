@@ -8,6 +8,8 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Logo from "../../public/logoGraphene.png"
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -49,11 +51,12 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit fixed top-10 inset-x-0 mx-auto border-[1px] border-[#182448] dark:border-white/[0.2] rounded-full dark:bg-black shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2 items-center justify-center space-x-4 bg-[#010314]"
+          "flex max-w-fit fixed top-10 inset-x-0 mx-auto border-[1px] border-[#782bac] dark:border-white/[0.2] rounded-full dark:bg-black shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2 items-center justify-center space-x-4 bg-[#0d0214]"
         )}
       >
         <Link href="/" className="flex items-center">
-          <img src="https://cdn.prod.website-files.com/644f5df7f9e72f4d074c8f00/6458ad1f169fc472b285fe37_Logo.svg" alt="Logo" className="w-32 object-fill" loading="lazy" />
+          {/* <img src={Logo} alt="Logo" className="w-32 object-fill" loading="lazy" /> */}
+          <Image src="/logoGraphene.png" alt="Graphene Logo" width={150} height={10} className=" object-fill " />
         </Link>
         {navItems.map((navItem, idx) => (
           <Link
@@ -72,7 +75,7 @@ export const FloatingNav = ({
         >
           <span>Contact Us</span>
           <span
-            className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px"
+            className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#a630f5] to-transparent h-px"
           />
         </button>
       </motion.div>
