@@ -27,13 +27,13 @@ export function SpotlightPreview() {
               </span>
               <span className="text-white text-xl max-w-[40rem] pb-5 max-sm:text-center ">Launching Soon.</span>
             </div>
-            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736567998/taghand_1_ot3df9.jpg" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
+            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736687770/tag_2_qtodey.jpg" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
           </div>
 
 
 
           <div className="lg:flex-row mt-56 gap-32 flex-col flex justify-around items-center">
-          <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736567962/TICKET_2_sz988f.png" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
+          <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736687771/ticket_2_1_poz8ah.png" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
             <div className="flex flex-col gap-6 font">
               <h1
                 className="text-4xl lg:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50  pb-5 max-w-[50rem] max-sm:text-center font-poppins">
@@ -53,7 +53,7 @@ export function SpotlightPreview() {
               </h1>
               <span className="text-white text-xl font-sans lg:max-w-[40rem] 2xl:w-[50rem] pb-5 max-sm:text-center">At Graphene Labs, we&apos;ve created a logistics tracking platform that works effortlessly with our smart labels to give you real-time visibility and control over your supply chain. From tracking products every step of the way to predicting delays, our platform makes it easy to stay on top of operations. With intuitive updates and insightful analytics, you can make smarter decisions, improve efficiency, and create a better experience for your customers—all while keeping everything running smoothly.</span>
             </div>
-            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736610024/ticketbox_fpneu3.jpg" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
+            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736687771/ticket_2_e9ukgy.jpg" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
           </div>
         </div>
       </div>
