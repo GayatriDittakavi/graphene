@@ -53,7 +53,7 @@ export function SpotlightPreview() {
               </h1>
               <span className="text-white text-xl font-sans lg:max-w-[40rem] 2xl:w-[50rem] pb-5 max-sm:text-center">At Graphene Labs, we&apos;ve created a logistics tracking platform that works effortlessly with our smart labels to give you real-time visibility and control over your supply chain. From tracking products every step of the way to predicting delays, our platform makes it easy to stay on top of operations. With intuitive updates and insightful analytics, you can make smarter decisions, improve efficiency, and create a better experience for your customers—all while keeping everything running smoothly.</span>
             </div>
-            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736509774/render_1-removebg-preview_bdw2ko.png" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
+            <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736610024/ticketbox_fpneu3.jpg" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
           </div>
         </div>
       </div>
