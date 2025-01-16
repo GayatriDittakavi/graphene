@@ -33,7 +33,7 @@ export function SpotlightPreview() {
 
 
           <div className="lg:flex-row mt-56 gap-32 flex-col flex justify-around items-center">
-          <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736687771/ticket_2_1_poz8ah.png" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
+          <img src="https://res.cloudinary.com/dafbhjsmx/image/upload/v1736567962/TICKET_2_sz988f.png" className='w-[40rem] h-[40rem] bg-purple-950 rounded-2xl max-lg:w-[30rem] max-lg:h-[30rem]' alt="" />
             <div className="flex flex-col gap-6 font">
               <h1
                 className="text-4xl lg:text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50  pb-5 max-w-[50rem] max-sm:text-center font-poppins">
