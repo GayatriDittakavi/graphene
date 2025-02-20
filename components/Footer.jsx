@@ -23,14 +23,7 @@ const people = [
       designation: "PhD, GaTech",
       image:
         "https://res.cloudinary.com/dafbhjsmx/image/upload/v1736510546/marty_ii6egj.jpg",
-    },
-    {
-      id: 4,
-      name: "Tirupathi Seth",
-      designation: "Co Founder",
-      image:
-        "https://res.cloudinary.com/dafbhjsmx/image/upload/v1736509774/render_1-removebg-preview_bdw2ko.png",
-    },
+    }
   ];
 
 const Footer = () => {
