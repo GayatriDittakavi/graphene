@@ -5,20 +5,13 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 const people = [
     {
       id: 1,
-      name: " Krishna Chaitanya",
-      designation: "Product Advisor",
-      image:
-        "https://res.cloudinary.com/dafbhjsmx/image/upload/v1736510473/1726304455679_yjkz03.jpg",
-    },
-    {
-      id: 2,
       name: "Gayatri Dittakavi",
       designation: "Founder",
       image:
         "https://res.cloudinary.com/dafbhjsmx/image/upload/v1736510652/cropped_l5pbyt.jpg",
     },
     {
-      id: 3,
+      id: 2,
       name: "Maruthi Annamaraju",
       designation: "PhD, GaTech",
       image:
